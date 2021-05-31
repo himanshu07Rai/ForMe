@@ -9,3 +9,5 @@ looks at requests where the Content-Type: application/json header is present and
             }) 
 
 does the same for URL-encoded requests. the extended: true precises that the req.body object will contain values of any type instead of just strings.
+
+3. For connecting node to postgres [npm i pg](https://node-postgres.com/)
