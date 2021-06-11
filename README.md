@@ -17,3 +17,17 @@ does the same for URL-encoded requests. the extended: true precises that the req
 5. [Linux Command Line Cheat Sheet](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
 
 6. [The Ultimate Guide to Python: How to Go From Beginner to Pro](https://www.freecodecamp.org/news/the-ultimate-guide-to-python-from-beginner-to-intermediate-to-pro/#conditional-statements-)
+
+7. Clearing python colsole : 
+
+          For Windows:
+
+          >>> import os
+          >>> clear = lambda: os.system('cls')
+          >>> clear()
+          
+          For Linux it would be:
+
+          >>> import os
+          >>> clear = lambda: os.system('clear')
+          >>> clear()
