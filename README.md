@@ -15,3 +15,5 @@ does the same for URL-encoded requests. the extended: true precises that the req
 4. [HTTP vs TCP](https://networkinterview.com/http-vs-tcp-know-the-difference/#:~:text=HTTP%20is%20a%20Hypertext%20Transfer%20Protocol%2C%20whereas%20TCP%20full%20form,and%20TCP%20uses%20no%20port.&text=HTTP%20is%20faster%20in%20comparison%20to%20TCP%2C%20which%20is%20slower.)
 
 5. [Linux Command Line Cheat Sheet](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)
+
+6. [The Ultimate Guide to Python: How to Go From Beginner to Pro](https://www.freecodecamp.org/news/the-ultimate-guide-to-python-from-beginner-to-intermediate-to-pro/#conditional-statements-)
