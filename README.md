@@ -37,3 +37,13 @@ does the same for URL-encoded requests. the extended: true precises that the req
 ML
 tensorflow.js
 
+
+    python virtual envs ubuntu
+    
+    pip install virtualenv
+    mkdir VENVS
+    python3 -m virtualenv venv1
+    
+    to activate  -> sourch path
+    
+    to deactivate -> deactivate
