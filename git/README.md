@@ -10,4 +10,27 @@
 - enter credentials ( username and PAT)
 - done
 
+---
+
 ## Alias
+
+### shell aliases
+
+- vi ~/.zshrc
+- create alias. eg
+- alias gst='git status'
+
+### git alias
+
+we can edit global config file , which is stored at ~/.gitconfig
+
+vi ~/.gitconfig
+
+```git
+[alias]
+        add-commit = git add . && git commit
+```
+
+OR
+
+git config --global --edit
