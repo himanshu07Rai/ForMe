@@ -9,3 +9,5 @@
 - git push / pull
 - enter credentials ( username and PAT)
 - done
+
+## Alias
