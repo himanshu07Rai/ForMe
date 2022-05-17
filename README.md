@@ -47,3 +47,29 @@ tensorflow.js
     to activate  -> sourch path
     
     to deactivate -> deactivate
+    
+    
+## Prisma
+
+```
+npm init
+
+npm i express morgan http-errors dotenv
+
+npm i -D nodemon prisma
+
+npm i @prisma/client
+
+npx prisma init
+
+"[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
+
+add this to settings.json
+
+npx prisma migrate dev
+
+npx prisma studio
+  
+```
