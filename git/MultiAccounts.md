@@ -3,7 +3,7 @@
 - add multiple public and private keys
 - have different host for different accounts
 
-```al
+```powershell
 
 Host mine.github.com
 HostName github.com
