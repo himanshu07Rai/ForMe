@@ -34,12 +34,3 @@ vi ~/.gitconfig
 OR
 
 git config --global --edit
-
----
-
-## Caching your GitHub credentials in Git
-
-- install github cli
-- gh auth login
-
----
