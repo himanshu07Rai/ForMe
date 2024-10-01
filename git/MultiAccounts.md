@@ -17,6 +17,13 @@ User git
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/id_pf
 
+Host gitlab.com
+HostName gitlab.com
+User git
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_pf
+
+
 ```
 
 - use thses host instead of `github.com` to clone stuff
