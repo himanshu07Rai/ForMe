@@ -3,6 +3,8 @@
 - add multiple public and private keys
 - have different host for different accounts
 
+`vim ~/.ssh/config`
+
 ```powershell
 
 Host mine.github.com
