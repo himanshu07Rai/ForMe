@@ -1,0 +1,1 @@
+- doctype : tell the browser which version of HTML we are using
