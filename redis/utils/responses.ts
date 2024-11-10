@@ -1,9 +1,13 @@
-import type { Response } from 'express';
+import type { Response } from "express";
 
-export function successResponse(res: Response, data: any, message="Success",statusCode = 200) {
-    return res.status(statusCode).json({ success:true, message,data });
+export function successResponse(
+  res: Response,
+  data: any,
+  message: string = "Success"
+) {
+  return res.status(200).json({ success: true, message, data });
 }
 
-export function errorResponse(res: Response, error="Internal Server Error", statusCode = 500) {
-    return res.status(statusCode).json({ success:false, error });
+export function errorResponse(res: Response, status: number, error: string) {
+  return res.status(status).json({ success: false, error });
 }

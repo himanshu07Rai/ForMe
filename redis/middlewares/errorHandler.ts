@@ -1,12 +1,12 @@
-import type { Response, Request, NextFunction } from "express";
-import { errorResponse } from "../utils/responses";
+import type { Request, Response, NextFunction } from "express";
+import { errorResponse } from "../utils/responses.js";
 
 export function errorHandler(
-  err: Error,
+  err: any,
   req: Request,
   res: Response,
   next: NextFunction
 ) {
   console.error(err);
-  errorResponse(res, err.message);
+  errorResponse(res, 500, err);
 }

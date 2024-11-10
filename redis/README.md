@@ -67,3 +67,30 @@ npm i -D @types/express @types/node tsx typescript
 ```
 
 
+## Hashes
+
+- Field-value pairs
+- Represent basic objects, counters, etc
+- No nested data
+- Fields added and removed as needed
+
+
+## List
+
+- Linked list of string values
+- Optimized for adding/removing
+
+
+## Sets
+
+- Unordered collections
+- Unique strings
+
+
+## Sorted Sets
+
+- Unique Strings
+- Ordered by score
+- Leaderboard
+
+
