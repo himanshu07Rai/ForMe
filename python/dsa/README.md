@@ -31,3 +31,31 @@ class Solution:
         
         return res
 ```
+
+
+# Python Heaps (`heapq` Module)
+
+## **Min-Heap**
+A **min-heap** keeps the smallest element at the root.
+
+### **Basic Operations**
+```python
+import heapq
+
+data = [5, 1, 8, 3]
+heapq.heapify(data)  # Convert to min-heap
+print(data)  # [1, 3, 8, 5]
+
+heapq.heappush(data, 2)  # Add element
+print(data)  # [1, 2, 8, 5, 3]
+
+smallest = heapq.heappop(data)  # Remove smallest
+print(smallest)  # 1
+
+heapq.heappushpop(data, 4)  # Push 4, then pop smallest
+print(data)  # [3, 4, 8, 5]
+
+heapq.heapreplace(data, 6)  # Replace smallest with 6
+print(data)  # [4, 5, 8, 6]
+
+
