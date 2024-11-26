@@ -1,3 +1,7 @@
+![freeCodeCamp org - System Design Concepts Course and Interview Prep  F2FmTdLtb_4 - 828x466 - 20m14s](https://github.com/user-attachments/assets/87530ee4-1c7b-4338-9e3a-1774e539e8ea)
+
+
+
 | Feature            | Polling                                     | GraphQL                                   | WebSockets                                | Server-Sent Events (SSE)                 |
 |---------------------|---------------------------------------------|-------------------------------------------|-------------------------------------------|-------------------------------------------|
 | **Definition**      | Client periodically requests updates from the server. | Query language for APIs, often paired with HTTP/real-time updates. | Full-duplex communication over a persistent connection. | One-way real-time updates from server to client. |
