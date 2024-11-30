@@ -29,6 +29,7 @@ Purpose: Defines a family of algorithms, encapsulates them, and makes them inter
 Use Cases:
 Payment processing using different methods (credit card, PayPal, etc.).
 Sorting algorithms.
+It is used when we need different algorithms for same functionality.
 6. Adapter Pattern
 Category: Structural
 Purpose: Converts one interface into another expected by a client.
