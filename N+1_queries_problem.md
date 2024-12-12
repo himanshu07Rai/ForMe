@@ -1,0 +1,2 @@
+The N+1 query problem is a common performance issue in database interactions, especially when using Object-Relational Mappers (ORMs) like Hibernate, Django ORM, or SQLAlchemy. It occurs when an application makes one initial query to retrieve a set of data, followed by N additional queries to fetch related data for each item in the initial result set. This leads to unnecessary database calls, which can severely degrade performance.
+
